@@ -1,56 +1,29 @@
-# CodeIgniter 4 Framework
+<h1>Cadastro de Pedido</h1>
 
-## What is CodeIgniter?
+<p>Para começar a cadastrar o pedido clique no botão "Fazer pedido"</p>
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
+![fazerpedido](https://user-images.githubusercontent.com/103218339/201781190-b742fc61-2c18-4b2f-89bc-1676fc0fa930.png)
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+<p>Se o pedido for de uma pessoa física, clique no botão "fisica", mas se for uma pessoa jurídica, clique no botão "juridica".</p>
 
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
-
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+![escolha](https://user-images.githubusercontent.com/103218339/201781599-86a614dc-bb65-4568-8530-048c1e1e1ce7.png)
 
 
-## Important Change with index.php
+<p>Se escolheu a opção "fisica", preenchao formulario com o nome da pessoa e o cpf, se escolheu "juridica", preencha com a razão social e o cnpj.</p>
+<p>E para escolher os produtos, clique no botão "Escolher produtos".</p>
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+![fisica](https://user-images.githubusercontent.com/103218339/201782397-57cfe1f7-925d-4af6-b009-eb9af5fc6e67.png)
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
 
-**Please** read the user guide for a better explanation of how CI4 works!
 
-## Repository Management
+<p>Caso queira visualizar, editar ou remover os dados, clique no botão "Visualizar dados" e poderá fazer isso.</p>
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+![xa](https://user-images.githubusercontent.com/103218339/201782496-0ca08430-099a-4d7d-aeb4-25500584e672.png)
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+<p>Para cadastrar o produto, preencha o formulario com o nome do produto, o valor e o ID da pessoa cadastrada e clique no botão "finalizar"</p>
 
-## Contributing
+![1](https://user-images.githubusercontent.com/103218339/201782997-0dd18b54-d20e-43f9-b92b-151933011484.png)
 
-We welcome contributions from the community.
+<p>Clicando em "finalizar" irá para a página final, onde poderá editar ou excluir o produto. Poderá também selecionar o status do pedido em "em aberto", "Pago" ou "cancelado".</p>
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php)
-- xml (enabled by default - don't turn it off)
+![14 11 2022_19 44 13_REC](https://user-images.githubusercontent.com/103218339/201783702-9ebb0f38-d759-424a-8440-4911d482d9d5.png)
