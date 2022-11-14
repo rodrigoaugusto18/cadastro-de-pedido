@@ -54,7 +54,10 @@
                 <td><a href="<?php echo base_url('produtos/editar/' . $produto->id ) ?>">Editar</a></td>
                 <td><a href="<?php echo base_url('produtos/excluir/' . $produto->id) ?>">Excluir</a></td>
             </tr>
-                <p><?php echo $comboStatus ?></p>
+                
+                <p>Status do pedido:
+                <br>    
+                <?php echo $comboStatus ?></p>
             <?php endforeach ?>
         </table> 
 
